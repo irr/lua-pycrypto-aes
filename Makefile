@@ -12,7 +12,7 @@ LDFLAGS +=         -shared
 #PREFIX ?=          /opt/local
 #LDFLAGS +=         -bundle -undefined dynamic_lookup
 
-LUA_INCLUDE_DIR ?= $(PREFIX)/luajit/include/luajit-2.0
+LUA_INCLUDE_DIR ?= $(PREFIX)/luajit/include/luajit-2.1
 LUA_LIB_DIR ?=     $(PREFIX)/lualib
 
 # Some versions of Solaris are missing isinf(). Add -DMISSING_ISINF to
